@@ -1,0 +1,114 @@
+[<tag id="resourcepath" type="meta" value="/DesktopModules/NBright/NBrightBuySipsApi/App_LocalResources/" />]
+
+<br/>
+
+<div id="pageactionssource"><!-- Page actions are moved into header bar - also exist at page bottom-->
+	<div class="col-xs-9 col-sm-9">
+		<a href="#" class="show-sidebar">
+		  <i class="fa fa-bars"></i>
+		</a>
+		<div class="actionbuttonwrapper">
+			[<tag id="cmdSave" type="linkbutton" cssclass="btn btn-primary" resourcekey="General.cmdSaveButton" commandname="save" />] 
+	    </div>
+	</div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-search"></i><span>SIPS API</span>
+                </div>
+            </div>
+            <div class="box-content">
+                <div class="form-horizontal dnnForm">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="SipsPayment.checkouttemplate" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="checkouttemplate" cssclass="form-control" type="textbox" Text="methodselection.html" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="SipsPayment.merchant_id" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="merchant_id" cssclass="form-control" type="textbox" Text="" />]
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="SipsPayment.merchant_country" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="merchant_country" cssclass="form-control" type="textbox" Text="fr" />]
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="SipsPayment.currency_code" />]</label>
+                        <div class="col-sm-2">
+                            [<tag id="currency_code" cssclass="form-control" type="textbox" Text="978" />]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">payment_means</label>
+                        <div class="col-sm-3">
+                            [<tag id="payment_means" cssclass="form-control" type="textbox" Text="CB,2,VISA,2,MASTERCARD,2"/>]
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">logo</label>
+                        <div class="col-sm-2">
+                            [<tag id="imagelogo" cssclass="form-control" type="textbox" Text="PAYLIB.gif" />]
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Portal param folder</label>
+                        <div class="col-sm-2">
+                            [<tag id="paramfolder" cssclass="form-control" type="textbox" Text="sipsparam" />]                            
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12">
+        <div class="box">
+            <div class="box-header">
+                <div class="box-name">
+                    <i class="fa fa-search"></i><span>[<tag type="valueof" resourcekey="General.Advanced" />]</span>
+                </div>
+            </div>
+            <div class="box-content">
+
+                <div class="form-horizontal dnnForm">
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">[<tag type="valueof" resourcekey="SipsPayment.debugmode"/>]</label>
+                        <div class="col-sm-2">
+                            [<tag id="debugmode" type="checkbox"/>]
+                        </div>
+                    </div>
+
+                    <div id="debugmsg">
+                        [<tag type="valueof" xpath="genxml/debugmsg"/>]
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
